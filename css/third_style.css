@@ -1,0 +1,65 @@
+
+.left_side_welcome{
+    padding: 10% 0% 0% 10%;
+}
+.right_side_welcome{
+    padding: 10% 0 0 0;
+}
+.iconka{
+    background: white;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 2px solid gray;
+    border-right: 0;
+}
+.inputik{
+    border: 2px solid gray;
+    border-left: 0;
+}
+
+#sign_up{
+    background: #9C4DF4;
+    color: white;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h6 {
+    font-size: 15px !important;
+}
+@media screen and (max-width: 920px) {
+    h6 {
+        font-size: 11px !important;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    h6 {
+        font-size: 11px;
+        font-weight: bolder;
+    }
+    .left_side_welcome{
+        display: none;
+    }
+    .col-1{
+        display: none;
+    }
+    .right_side_welcome{
+        width: 100%;
+    }
+    .iconka{
+        position: absolute;
+        margin-left: -10px;
+        margin-top: 5px;
+        z-index: 9999;
+    }
+    .inputik{
+        display: inline;
+        padding: 12px;
+        padding-left: 50px;
+    }
+    .input-group{
+
+    }
+}

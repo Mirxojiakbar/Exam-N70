@@ -1,0 +1,118 @@
+
+.book_shop{
+    background: #EFEBF5;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.text_purple{
+    color: #9C4DF4;
+}
+.left_mini_div{
+    background: white;
+    border-radius: 10px;
+}
+.mt{
+    margin-top: 10%;
+}
+.btn_with_hover{
+    background: white;
+    font-size: 10px;
+    padding: 15px 4px;
+}
+.btn_with_hover:hover{
+    background: red;
+    color: white;
+}
+.inputes{
+    width: 250px;
+    position: absolute;
+}
+.lopa{
+    position: relative;
+    margin-left: 210px;
+    margin-top: -2%;   
+}
+.d-will-block{
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .md-none{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 920px) {
+    .form-select{
+        margin-top: 30%;
+        margin-bottom: 10px;
+        width: 190%;
+        margin-left: -100%;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    .book_shelf{
+        width: 100%;
+    }
+    .inputes{
+        margin-left: 20px;
+        width: 50%;
+        position: absolute;
+    }
+    .lopa{
+        position: relative;
+        margin-left: 185%;
+        margin-top: -4%;   
+    }
+
+
+}
+@media screen and (max-width: 769px) {
+    h1 {
+        font-size: 20px !important;
+    }
+    .strong{
+        font-size: 10px !important;
+    }
+    .inputes{
+        margin-left: 20px;
+        width: 50%;
+        position: absolute;
+    }
+    .btn_with_hover{
+        background: white;
+        font-size: 7px;
+        font-weight: bold;
+    }
+    .sm-none{
+        display: none !important;
+    }
+    .form-select{
+        margin-top: 30%;
+        margin-bottom: 10px;
+        width: 190%;
+        margin-left: -100%;
+    }
+
+}
+@media screen and (max-width:578px) {
+    .btn_with_hover{
+        background: white;
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .md-none{
+        display: none !important;
+    }
+    .d-will-none{
+        display: none !important;
+    }
+    .d-will-block{
+        display: block !important; 
+    }
+    .inputes{   
+        margin-left: 20px;
+        display: none !important;
+        position: absolute;
+    }
+}
